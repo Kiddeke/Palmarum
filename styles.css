@@ -82,6 +82,7 @@ section.band{padding:88px 0}
 .niche.sebastian:hover{border-color:var(--seb-rose)}
 .niche.palma:hover{border-color:var(--pal-gold)}
 .tile{width:76px;height:76px;margin:0 auto 20px;border-radius:22px;display:grid;place-items:center}
+.app-mark{display:block;height:auto;object-fit:contain}
 .niche.sebastian .tile{background:#0E1319;box-shadow:0 0 40px -8px rgba(178,58,46,.5);border:1px solid var(--seb-line)}
 .niche.palma .tile{background:#16382A;box-shadow:0 0 40px -8px rgba(212,184,114,.4);border:1px solid var(--pal-line)}
 .n-cat{font-family:"Hanken Grotesk",sans-serif;font-weight:600;letter-spacing:.26em;font-size:.66rem;text-transform:uppercase}

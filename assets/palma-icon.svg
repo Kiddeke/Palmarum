@@ -1,0 +1,22 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#235640"/>
+      <stop offset="1" stop-color="#12291F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- Stride Frond, centered and scaled: original viewBox region ~(40..175, 45..175), center ~ (108,110) -->
+  <g transform="translate(512,532) scale(4.6) translate(-108,-112)">
+    <g stroke="#F3EDDF" stroke-width="10" stroke-linecap="round" fill="none">
+      <path d="M 96 168 Q 74 148 62 132"/>
+      <path d="M 96 168 Q 72 134 60 106"/>
+      <path d="M 96 168 Q 76 122 74 84"/>
+      <path d="M 96 168 Q 86 112 96 62"/>
+      <path d="M 96 168 Q 102 108 124 56"/>
+      <path d="M 96 168 Q 116 116 150 74"/>
+      <path d="M 96 168 Q 126 130 164 104"/>
+    </g>
+    <circle cx="96" cy="168" r="8" fill="#C29A45"/>
+  </g>
+</svg>

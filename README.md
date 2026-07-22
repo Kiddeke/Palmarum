@@ -23,10 +23,13 @@ A small, dependency-free static site — plain HTML and CSS, no build step.
 | `404.html` | Branded not-found page. |
 | `CNAME` | Custom domain for GitHub Pages (`palmarum.dev`). |
 | `robots.txt`, `sitemap.xml` | Basic SEO. |
+| `assets/` | The two apps' real logos, copied from their repos — Palma's Stride Frond (`palma-icon.svg`/`.png`) and Sebastian's volley mark (`sebastian-volley-dark.png`, `-light.png`). |
 | `.github/workflows/deploy.yml` | Deploys the site to GitHub Pages on push to `master`. |
 
 Fonts (Fraunces, Hanken Grotesk, Archivo, Cinzel) load from Google Fonts. The
-palm marks are inline SVG, so there are no image assets to manage.
+Palmarum parent mark and Palma's frond are inline SVG; Sebastian's logo is a PNG
+in `assets/`. The app logos are the real ones shipped in the Palma app — update
+them here if the app icons change.
 
 ## Developing
 
