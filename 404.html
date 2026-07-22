@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Not found — Palmarum</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#0E1D16">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .lost{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:40px 28px;gap:22px}
+  .lost svg{width:120px;height:auto}
+  .lost .code{font-family:"Cinzel",serif;letter-spacing:.24em;color:var(--gilt);font-size:.8rem}
+  .lost h1{font-family:"Fraunces",serif;font-weight:400;font-size:clamp(2rem,6vw,3.2rem);line-height:1.05}
+  .lost p{color:var(--vellum-dim);max-width:44ch}
+  .lost .verse{font-family:"Fraunces",serif;font-style:italic;color:var(--vellum-dim);font-size:.92rem}
+</style>
+</head>
+<body>
+  <div class="lost">
+    <svg viewBox="0 0 200 224" role="img" aria-label="Palmarum mark">
+      <g fill="none" stroke="#D4B872" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M100 204 L100 34"/>
+        <path d="M100 60 L72 44 M100 60 L128 44"/>
+        <path d="M100 90 L64 72 M100 90 L136 72"/>
+        <path d="M100 120 L64 104 M100 120 L136 104"/>
+        <path d="M100 150 L70 136 M100 150 L130 136"/>
+        <path d="M100 178 L78 168 M100 178 L122 168"/>
+      </g>
+      <circle cx="100" cy="204" r="4" fill="#D4B872"/>
+    </svg>
+    <div class="code">404 · Not Found</div>
+    <h1 class="display">This path leads nowhere.</h1>
+    <p>The page you were looking for isn't here. Let's get you back to the studio.</p>
+    <a class="btn btn-gilt" href="/">Return home</a>
+    <p class="verse">"The righteous shall flourish like the palm tree." — Psalm 92</p>
+  </div>
+</body>
+</html>
