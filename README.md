@@ -1,7 +1,7 @@
 # Palmarum
 
 The marketing site for **Palmarum LLC** — an independent Catholic software
-studio — served at [palmarum.com](https://palmarum.com).
+studio — served at [palmarum.dev](https://palmarum.dev).
 
 Palmarum is the parent brand for two iOS apps:
 
@@ -21,7 +21,7 @@ A small, dependency-free static site — plain HTML and CSS, no build step.
 | `styles.css` | All styling (design tokens, layout, components, motion). |
 | `favicon.svg` | The Palmarum palm mark, used as the site icon. |
 | `404.html` | Branded not-found page. |
-| `CNAME` | Custom domain for GitHub Pages (`palmarum.com`). |
+| `CNAME` | Custom domain for GitHub Pages (`palmarum.dev`). |
 | `robots.txt`, `sitemap.xml` | Basic SEO. |
 | `.github/workflows/deploy.yml` | Deploys the site to GitHub Pages on push to `master`. |
 
@@ -45,7 +45,7 @@ The site deploys automatically to GitHub Pages via GitHub Actions on every push
 to `master`.
 
 **One-time setup:** in the repo, go to **Settings → Pages → Build and
-deployment → Source** and choose **GitHub Actions**. Point the `palmarum.com`
+deployment → Source** and choose **GitHub Actions**. Point the `palmarum.dev`
 DNS at GitHub Pages (an `ALIAS`/`ANAME` or the four `A` records for the apex
 domain, plus a `CNAME` on `www` → `kiddeke.github.io`), and Pages will pick up
 the domain from the `CNAME` file. Enable "Enforce HTTPS" once the certificate
@@ -53,5 +53,5 @@ is issued.
 
 ## Contact
 
-`hello@palmarum.com` — update the address in `index.html` (footer) if a
+`hello@palmarum.dev` — update the address in `index.html` (footer) if a
 different inbox is preferred.
