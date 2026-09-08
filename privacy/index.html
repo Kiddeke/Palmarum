@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Privacy Policy — Palmarum</title>
-<meta name="description" content="The privacy policy for Palmarum LLC's apps — Palma and Sebastian. No ads, no trackers, no selling of data. Plain answers about location, Apple Health, and your account.">
+<meta name="description" content="The privacy policy for Palmarum LLC's apps — Palma and Sebastian. No ads, no trackers, no selling of data. Plain answers about location, Apple Health, Health Connect, and your account.">
 <meta name="author" content="Palmarum LLC">
 <meta name="theme-color" content="#0E1D16">
 <link rel="canonical" href="https://palmarum.dev/privacy/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Palmarum">
 <meta property="og:title" content="Privacy Policy — Palmarum">
-<meta property="og:description" content="No ads, no trackers, no selling of data. Plain answers about location, Apple Health, and your account.">
+<meta property="og:description" content="No ads, no trackers, no selling of data. Plain answers about location, Apple Health, Health Connect, and your account.">
 <meta property="og:url" content="https://palmarum.dev/privacy/">
 <meta property="og:image" content="https://palmarum.dev/favicon.svg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -56,7 +56,7 @@
     <span class="eyebrow">Palmarum LLC</span>
     <h1>Privacy <span class="serif-it">Policy</span></h1>
     <p class="sub">We make small, disciplined tools with no ads, no third-party analytics, and no selling of data. This page says plainly what our apps collect, why, and what you can do about it.</p>
-    <div class="stamp">Effective · August 28, 2026</div>
+    <div class="stamp">Effective · September 8, 2026</div>
   </div>
 
   <div class="prose">
@@ -81,8 +81,8 @@
       <h3>Location</h3>
       <p>Precise location is used <b>only while a run you started is in progress</b>, including in the background or with the screen locked, so your route and pace can be recorded. Tracking stops when you finish the run. We do not collect your location at any other time.</p>
 
-      <h3>Apple Health (read-only)</h3>
-      <p>With your permission, Palma reads <b>workouts and heart rate</b> from Apple Health so runs recorded on your Apple Watch or in other apps appear in your ledger. Imported workouts are stored with your account like any other activity. We do not write to Apple Health, and — as Apple requires — health data is <b>never</b> used for advertising or marketing, never shared with third parties for their own purposes, and never sold.</p>
+      <h3>Apple Health &amp; Health Connect (read-only)</h3>
+      <p>With your permission, Palma reads from your phone's health store — <b>Apple Health</b> on iPhone, Google's <b>Health Connect</b> on Android — so workouts recorded on your watch or in other fitness apps appear in your ledger. The data types we read are the same on both: <b>workouts (exercise sessions), heart rate, distance, and the workout's GPS route</b> where one was shared. Imported workouts are stored with your account like any other activity, encrypted in transit. We read only; we do not write to Apple Health or Health Connect. Health data is <b>never</b> used for advertising or marketing, never used to train AI models, never shared with third parties for their own purposes, and never sold. Deleting an imported activity in Palma removes it from our servers; the original stays untouched in your health store.</p>
 
       <h3>Faith entries</h3>
       <p>Prayer, fasting, and feast-day entries you record are stored with your account, for you and — only if you share them — your Circle.</p>
@@ -113,7 +113,7 @@
       <div>
         <div class="svc"><span class="sn">Supabase</span><span class="sd">Hosts our database, authentication, photo storage, and server functions. This is where your account and ledger live, encrypted in transit.</span></div>
         <div class="svc"><span class="sn">Anthropic</span><span class="sd">Generates the coach's daily message from the training context described above.</span></div>
-        <div class="svc"><span class="sn">Google</span><span class="sd">Only if you use Google sign-in (your name and email), and to draw map tiles on Android.</span></div>
+        <div class="svc"><span class="sn">Google</span><span class="sd">Only if you use Google sign-in (your name and email), and to draw map tiles on Android. Health Connect permissions are handled on your device under Google's own privacy terms; Health Connect data itself never passes through Google on our account.</span></div>
         <div class="svc"><span class="sn">Apple</span><span class="sd">HealthKit permissions and push-notification delivery, under Apple's own privacy terms.</span></div>
         <div class="svc"><span class="sn">Strava</span><span class="sd">Only if you connect it. Runs you choose to upload are sent to your Strava account; the connection tokens are kept in your device's secure storage, not on our servers.</span></div>
       </div>
@@ -123,7 +123,7 @@
       <h2><span class="num">05</span>Your choices &amp; your rights</h2>
       <ul>
         <li><b>Permissions are yours.</b> Location, Health, photos, and notifications can each be declined or revoked any time in your device's Settings; the app keeps working with whatever you allow.</li>
-        <li><b>Disconnect integrations.</b> Apple Health and Strava can be disconnected in the app whenever you like.</li>
+        <li><b>Disconnect integrations.</b> Apple Health, Health Connect, and Strava can be disconnected in the app whenever you like; health-store read permissions can also be revoked in the Health or Health Connect app itself.</li>
         <li><b>Edit and delete freely.</b> Activities can be renamed, edited, or deleted individually.</li>
         <li><b>Delete your account, in the app.</b> Settings → Delete Account removes your account and your activities from our servers. You can also email us and we'll do it for you.</li>
         <li><b>Ask us anything.</b> Email <a href="mailto:hello@palmarum.dev">hello@palmarum.dev</a> to request a copy of your data, a correction, or a deletion. Depending on where you live (GDPR, CCPA, and similar laws), these are your legal rights — we honor them for everyone, everywhere, regardless.</li>
