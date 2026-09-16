@@ -255,3 +255,6 @@ footer{background:var(--ink);padding:64px 0 40px;border-top:1px solid var(--line
 /* App Store link inside a product card */
 .n-link{display:inline-block;margin-top:18px;font-weight:600;font-size:.92rem;color:var(--gilt);text-decoration:none;border-bottom:1px solid rgba(212,184,114,.45);padding-bottom:2px}
 .n-link:hover{color:var(--gilt-2);border-bottom-color:var(--gilt-2)}
+
+/* Real app icons are full-bleed squares; round them the way a phone does */
+.app-icon{border-radius:22%}
