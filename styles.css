@@ -258,3 +258,10 @@ footer{background:var(--ink);padding:64px 0 40px;border-top:1px solid var(--line
 
 /* Real app icons are full-bleed squares; round them the way a phone does */
 .app-icon{border-radius:22%}
+
+/* Official store badges. Apple's SVG is edge-to-edge; Google's PNG carries
+   ~1/6 transparent padding per side, so it renders taller to match. */
+.store-badges{display:flex;align-items:center;flex-wrap:wrap;gap:10px}
+.store-badges img{display:block;width:auto}
+.badge-appstore{height:50px}
+.badge-play{height:75px;margin:-8px}
